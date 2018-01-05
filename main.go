@@ -22,7 +22,7 @@ func main() {
 	hostString := fmt.Sprintf(":%s", port)
 	n.Run(hostString)
 
-	fmt.Println("Oh hi mark")
+	fmt.Println("Oh hei mark")
 
 }
 
