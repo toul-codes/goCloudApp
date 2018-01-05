@@ -22,6 +22,8 @@ func main() {
 	hostString := fmt.Sprintf(":%s", port)
 	n.Run(hostString)
 
+	fmt.Println("Oh hi mark")
+
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
