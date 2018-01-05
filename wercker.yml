@@ -60,7 +60,7 @@ deploy:
        cmd: /pipeline/source/hello
        port: "8080"
        tag: latest
-       repository: llcranmer/go-cloud-app
+       repository: llcranmer/gocloudapp
        registry: https://registry.hub.docker.com
 
    - cng/cf-deploy:
