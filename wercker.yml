@@ -69,5 +69,5 @@ deploy:
        password: $PASSWORD
        org: $ORG
        space: $SPACE
-       appname: wercker-step-hello
+       appname: go-cloud-app
 docker_image: llcranmer/go-cloud-app
